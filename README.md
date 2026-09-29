@@ -625,17 +625,6 @@ Change `TRAIN_TESTS`. Files starting with `Charge` are simulated as CC-CV; all o
 
 ---
 
-## 15. Limitations and assumptions
-
-- **Base parameter set.** Prada2013 describes an A123 26650 LFP/graphite cell with 2.3 Ah nominal capacity. The ANR26650M1B is the 2.5 Ah version. Chemistry and geometry are assumed to be the same; the capacity difference is handled by the stoichiometry window.
-- **OCP curves.** The graphite curve (Chen2020) was measured on an LG M50 cell. Graphite OCP depends mainly on the material, so the shape is assumed to carry over. The LFP curve (Afshar2017) was adapted near full charge only.
-- **Isothermal model.** The mean measured temperature is used for each test; self-heating at 3C–4C is not modelled.
-- **No LFP hysteresis model.** A constant charge-branch offset was tested and not used in the final set.
-- **Identifiability.** Terminal voltage alone cannot fully separate all parameters (for example k_j0_n vs k_j0_p). Similar objective values with different parameter combinations are possible.
-- **Runtime.** A full optimization takes several hours, which limits the evaluation budget, especially for the global methods (GA, DE).
-
----
-
 ## 16. References
 
 - Doyle, M., Fuller, T. F., Newman, J. (1993). Modeling of galvanostatic charge and discharge of the lithium/polymer/insertion cell. *J. Electrochem. Soc.*
