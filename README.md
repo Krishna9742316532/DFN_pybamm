@@ -210,7 +210,7 @@ If you run the notebooks from another folder, set `PROJECT_DIR` to the repositor
 |---|---|---|---|---|---|
 | 1 | `DFN_task_1 and_2.ipynb` | Baseline Prada2013 on HPPC | `HPPC.mat` | `results/task2/` | few min |
 | 2 | `DFN_task_3.ipynb` | Manual set on all tests, residual analysis | all `.mat` | `results/task3/` | ~30 min |
-| 3 | `DFN_task_4.ipynb` | Six optimizers, best parameter set | training `.mat` | `results/task4/` | 6–10 h |
+| 3 | `DFN_task_4.ipynb` | Six optimizers, best parameter set | training `.mat` | `results/task4/` | 4-6 h |
 | 4 | `DFN_task_5.ipynb` | HPPC validation, internal variables | Task 4 JSON + all `.mat` | `results/task5/` | 30–60 min |
 
 \* On a normal laptop. One optimization evaluation (five DFN simulations) takes about 30–60 s.
