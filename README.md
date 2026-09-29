@@ -63,7 +63,7 @@ a123-dfn-parametrization/
 ├── requirements.txt
 ├── .gitignore
 │
-├── lfp_dfn/                          # the model package – no hardcoded paths
+├── lfp_dfn/                           # the model package – no hardcoded paths
 │   ├── __init__.py                   # public API
 │   ├── config.py                     # CellConfig, ProtocolConfig
 │   ├── data.py                       # TestData, load_test()
@@ -84,17 +84,22 @@ a123-dfn-parametrization/
 │       ├── study.py                  # run_comparison(), print_summary(), save_study()
 │       ├── plots.py                  # convergence, parameter comparison, training fits
 │       └── validation.py             # quick HPPC check after optimization
-│
+│    ├── Data_dir
+│       ├── Charge_1c.mat               
+│       ├── Charge_2c.mat                  
+│       ├── Charge_3c.mat              
+│       ├── Charge_4c.mat                
+│       ├── disCharge_1c.mat                  
+│       ├── Hppc.mat                  
+│       
+|
 ├── notebooks/
 │   ├── DFN_task_1 and_2.ipynb
 │   ├── DFN_task_3.ipynb
 │   ├── DFN_task_4.ipynb
 │   └── DFN_task_5.ipynb
 │
-├── data/                             # measured .mat files (not in the repository)
-├── results/                          # created by the notebooks
-│
-└── A123 ANR26650M1B – DFN Model Parametrization and Validation(report)/                           # final report and figures
+└── A123 ANR26650M1B – DFN Model Parametrization and Validation(report)/                           
 ```
 
 **Design idea.** Every function sits in `lfp_dfn/`. The notebooks contain only settings, function calls and short explanations. Changing a parameter or a setting never requires editing the package.
