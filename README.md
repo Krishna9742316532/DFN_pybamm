@@ -94,7 +94,7 @@ a123-dfn-parametrization/
 ├── data/                             # measured .mat files (not in the repository)
 ├── results/                          # created by the notebooks
 │
-└── report/                           # final report and figures
+└── A123 ANR26650M1B – DFN Model Parametrization and Validation(report)/                           # final report and figures
 ```
 
 **Design idea.** Every function sits in `lfp_dfn/`. The notebooks contain only settings, function calls and short explanations. Changing a parameter or a setting never requires editing the package.
