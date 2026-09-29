@@ -86,14 +86,14 @@ a123-dfn-parametrization/
 │       └── validation.py             # quick HPPC check after optimization
 │
 ├── notebooks/
-│   ├── task2_baseline_simulation.ipynb
-│   ├── task3_analysis_manual_tuning.ipynb
-│   ├── task4_optimization.ipynb
-│   └── task5_validation.ipynb
+│   ├── DFN_task_1 and_2.ipynb
+│   ├── DFN_task_3.ipynb
+│   ├── DFN_task_4.ipynb
+│   └── DFN_task_5.ipynb
 │
 ├── data/                             # measured .mat files (not in the repository)
 ├── results/                          # created by the notebooks
-│   ├── task2/  task3/  task4/  task5/
+│
 └── report/                           # final report and figures
 ```
 
